@@ -10,4 +10,4 @@ glob(selector,null,function(er,files){
     }
 })
 }
-export default recursiveOperation;
+module.exports = recursiveOperation;
