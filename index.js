@@ -6,7 +6,7 @@ glob(selector,null,function(er,files){
         ret[0]=er;
     }
     for(file in files){
-        ret.push(action(file));
+        ret.push(action(files[file]));
     }
 })
 }
