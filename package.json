@@ -1,0 +1,24 @@
+{
+  "name": "recufs",
+  "version": "1.0.0",
+  "description": "A package for performing recursive file system actions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClientCrash/recufs.git"
+  },
+  "keywords": [
+    "file",
+    "recursive",
+    "recufs"
+  ],
+  "author": "ClientCrash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClientCrash/recufs/issues"
+  },
+  "homepage": "https://github.com/ClientCrash/recufs#readme"
+}
