@@ -1,12 +1,11 @@
 const glob = require('glob');
 function recursiveOperation(selector,action){
-    ret = [];
+    returnarray = [];
 glob(selector,null,function(er,files){
     if(er!=undefined){
-        ret[0]=er;
-    }
+     console.log(er)}
     for(file in files){
-        ret.push(action(files[file]));
+        returnarray.push(action(files[file]));
     }
 })
 }
