@@ -4,7 +4,9 @@
   "description": "A package for performing recursive file system actions.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "stylecheck":"eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint":"eslint . --ext .js,.jsx,.ts,.tsx --fix"
   },
   "repository": {
     "type": "git",
