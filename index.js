@@ -1,5 +1,5 @@
 const glob = require("glob");
-function recursiveOperation(selector,action){
+module.exports = function recursiveOperation(selector,action){
 	const returnarray = [];
 	glob(selector,null,function(er,files){
 		if(er!=undefined){
@@ -8,5 +8,5 @@ function recursiveOperation(selector,action){
 			returnarray.push(action(files[file]));
 		}
 	});
-}
-module.exports = recursiveOperation;
+};
+

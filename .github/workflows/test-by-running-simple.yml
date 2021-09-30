@@ -1,0 +1,17 @@
+name: Simple Run Test
+on: [push, pull_request]
+jobs:
+  simple-run:
+    name: run
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 
+        uses: actions/checkout@v2
+      - name: Node Setup
+        uses: actions/setup-node@v2
+        with:
+          node-version: '12.x'
+          registry-url: 'https://registry.npmjs.org'
+      - run: npm install
+      - name: Run simple test
+        run: npm run test
