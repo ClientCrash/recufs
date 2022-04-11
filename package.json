@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/ClientCrash/recufs#readme",
   "dependencies": {
-    "glob": "^7.1.7"
+    "glob": "^8.0.1"
   },
   "devDependencies": {
     "eslint": "^8.11.0"
